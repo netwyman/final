@@ -1,0 +1,8 @@
+---
+- hosts: vCenter
+  gather_facts: false
+  connection: local
+  #vars_files:
+  #  - answerfile.yml
+  roles:
+     - vm-remove-name
