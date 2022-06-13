@@ -9,8 +9,8 @@
     vcenter_hostname: "172.16.10.160"
     vcenter_user: qa-team@vsphere.local
     vcenter_pass: Mind@123
-    esxhost: 172.16.10.18
-    datastore: datastore18_2
+    esxhost: 172.16.10.35
+    datastore: datastore35_2
     vmtemplate: Motadata_7.3.047_master_template
     name: "newvm"
     notes: Ansible Test
